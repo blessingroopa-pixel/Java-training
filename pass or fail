@@ -1,0 +1,18 @@
+import java.util.*;
+public class Pass
+{
+    public static void main(String args[])
+    {
+        int marks;
+        Scanner sc=new Scanner(System.in);
+        marks=sc.nextInt();
+        if(marks>=90)
+        {
+            System.out.print("pass");
+        }
+        else
+        {
+            System.out.print("fail");
+        }
+    }
+}
