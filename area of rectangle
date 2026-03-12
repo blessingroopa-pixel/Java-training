@@ -1,0 +1,15 @@
+import java.util.*;
+public class Legnth
+{
+    public static void main(String args[])
+    {
+        int a,b,rectangle;
+        {
+        Scanner sc=new Scanner(System.in);
+        a=sc.nextInt();
+        b=sc.nextInt();
+        rectangle=a*b;
+        System.out.println(rectangle);
+    }
+}
+}
