@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int N = sc.nextInt();
+        int[] original = new int[N];
+        int[] copy = new int[N];
+
+        // Read the original array elements
+        for (int i = 0; i < N; i++) {
+            original[i] = sc.nextInt();
+        }
+
+        // Copy elements to the new array
+        for (int i = 0; i < N; i++) {
+            copy[i] = original[i];
+        }
+
+        // Print the copied array
+        for (int i = 0; i < N; i++) {
+            System.out.print(copy[i] + " ");
+        }
+    }
+}
